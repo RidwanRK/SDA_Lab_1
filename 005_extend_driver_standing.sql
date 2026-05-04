@@ -19,7 +19,7 @@ END //
 DELIMITER ;
 
 INSERT INTO change_log (created_by, script_name, script_details) 
-VALUES ('admin','006_extend_driver_standing.sql', 'Added sprint_points to driver_standing and created update_sprint_standing procedure.');
+VALUES ('admin','005_extend_driver_standing.sql', 'Added sprint_points to driver_standing and created update_sprint_standing procedure.');
 
 SELECT driver_id, season, total_points, sprint_points
 FROM driver_standing
